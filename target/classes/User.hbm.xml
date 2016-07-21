@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="springapp.pojo">
+    <class name="User" table="users">
+        <id name="id" column="user_id">
+            <generator class="native"/>
+        </id>
+        <list name="userPayments" cascade="save-update" lazy="true" inverse="true">
+            <key column="userId" not-null="true" on-delete="cascade"/>
+            <list-index column="idx" base="0"/>
+            <one-to-many class="UserPayments"/>
+        </list>
+        <property name="name" column="username"/>
+        <property name="password" column="password"/>
+        <property name="email" column="email"/>
+        <property name="isActive" column="isActive"/>
+
+    </class>
+
+    <class name="UserPayments" table="payment">
+        <id name="id" type="int" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="userId" column="userId"/>
+        <property name="date" column="payDate"/>
+        <property name="summ" column="userSum"/>
+    </class>
+</hibernate-mapping>

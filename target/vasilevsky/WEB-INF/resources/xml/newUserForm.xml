@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+    <item type="settings" inputWidth="220" position="label-left" labelWidth="70"/>
+    <item type="label" label="Добавление нового пользователя" labelWidth="500" offsetLeft="160"/>
+    <item type="image" name="userIcon" url="/resources/images/addNewUser.png" disabled="true"
+          imageWidth="126" imageHeight="126" inputWidth="100" inputHeight="100" offsetLeft="160"/>
+    <item type="hidden" name="id" value="0"/>
+    <item type="input" label="Ф.И.О.:" name="name" required="true" offsetLeft="130"/>
+    <item type="input" label="Пароль:" name="password" required="true" offsetLeft="130"/>
+    <item type="input" label="Email:" name="email" required="true" validate="ValidEmail" offsetLeft="130"/>
+    <item type="button" name="escape" value="Отмена" offsetTop="15" offsetLeft="230"/>
+    <item type="button" name="addUser" value="Добавить" offsetTop="15" offsetLeft="230"/>
+</items>

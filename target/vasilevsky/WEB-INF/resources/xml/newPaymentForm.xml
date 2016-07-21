@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<items>
+    <item type="settings" inputWidth="220" position="label-left" labelWidth="70"/>
+    <item type="label" label="Добавление нового платежа" labelWidth="500" offsetLeft="130"/>
+    <item type="hidden" name="userId" value="0"/>
+    <item type="calendar" label="Дата платежа" dateFormat="%Y-%m-%d" name="date"
+          required="true" calendarPosition="bottom" enableTodayButton="true" offsetLeft="130"/>
+    <item type="input" label="Сумма платежа" name="summ" required="true" validate="ValidNumeric" offsetLeft="130"/>
+    <item type="button" name="escape" value="Отмена" offsetTop="15" offsetLeft="230"/>
+    <item type="button" name="addPayment" value="Добавить" offsetTop="15" offsetLeft="230"/>
+</items>

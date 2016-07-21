@@ -1,0 +1,2145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b8640e8-e5ea-452e-98c7-1e58949504d0" name="Default" comment="21.07.16">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/springapp/AppTests.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/pojo/Event.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/pojo/Event.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/dao/EventDAO.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/dao/EventDAO.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/dao/EventDAOImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/dao/EventDAOImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/service/EventService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/service/EventService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/service/EventServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/service/EventServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/pojo/InactiveUsers.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/pojo/InactiveUsers.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/intercepter/ResTabInterceptor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/intercepter/ResTabInterceptor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/service/ResultTable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/service/ResultTable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/service/ResultTableImpl$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/service/ResultTableImpl$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/service/ResultTableImpl$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/service/ResultTableImpl$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/service/ResultTableImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/service/ResultTableImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/web/SpringController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/web/SpringController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/pojo/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/pojo/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/dao/UserDAO.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/dao/UserDAO.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/dao/UserDAOImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/dao/UserDAOImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/pojo/UserPayments.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/pojo/UserPayments.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/service/UserService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/service/UserService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/service/UserServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/service/UserServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/service/XMLBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/service/XMLBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/springapp/service/XMLBuilderImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/springapp/service/XMLBuilderImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/images/addEvent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/images/addNewUser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/images/addPayment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/images/addUser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/align_center.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/align_justify.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/align_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/align_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/antlr-2.7.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/ar_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/ar_left_abs.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/ar_left_abs_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/ar_left_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/ar_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/ar_right_abs.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/ar_right_abs_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/ar_right_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/bold.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/but_cut.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/buttons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/clear.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/combo_select_dhx_skyblue.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/commons-dbcp2-2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/commons-logging-1.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/commons-pool2-2.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/images/delEvent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/images/delPayment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/images/delUser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxacc_skyblue/dhxacc_btns.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxacc_skyblue/dhxacc_cell_progress.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxcalendar_skyblue/dhxcalendar_arrow_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxcalendar_skyblue/dhxcalendar_arrow_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxcalendar_skyblue/dhxcalendar_clock.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxcalendar_skyblue/dhxcalendar_mark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxcalendar_skyblue/dhxcalendar_selector_bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxcalendar_skyblue/dhxcalendar_selector_top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxcarousel_skyblue/dhxcarousel_cell_progress.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxcombo_skyblue/dhxcombo_arrow_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxcombo_skyblue/dhxcombo_arrow_down_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxcombo_skyblue/dhxcombo_chbx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxcp_skyblue/dhxcp_colors.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxcp_skyblue/dhxcp_icon_save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxform_skyblue/dhxform_chbxrd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxform_skyblue/dhxform_image_uploading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxform_skyblue/dhxform_upload_buttons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxform_skyblue/dhxform_upload_uploading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxlayout_skyblue/dhxlayout_cell_btns.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxlayout_skyblue/dhxlayout_cell_progress.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxlayout_skyblue/dhxlayout_sep_h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxlayout_skyblue/dhxlayout_sep_v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxmenu_skyblue/dhxmenu_arrow_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxmenu_skyblue/dhxmenu_arrow_down_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxmenu_skyblue/dhxmenu_arrow_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxmenu_skyblue/dhxmenu_arrow_up_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxmenu_skyblue/dhxmenu_chrd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxmenu_skyblue/dhxmenu_loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxmenu_skyblue/dhxmenu_subar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxpopup_skyblue/dhxpopup_arrow_bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxpopup_skyblue/dhxpopup_arrow_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxpopup_skyblue/dhxpopup_arrow_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxpopup_skyblue/dhxpopup_arrow_top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxribbon_skyblue/dhxribbon_arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxribbon_skyblue/dhxribbon_checked.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxribbon_skyblue/dhxribbon_checked_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxsidebar_skyblue/dhxsidebar_arrow_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxsidebar_skyblue/dhxsidebar_arrow_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxsidebar_skyblue/dhxsidebar_cell_progress.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxsidebar_skyblue/dhxsidebar_side_icon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtabbar_skyblue/dhxtabbar_arrows.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtabbar_skyblue/dhxtabbar_button_close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtabbar_skyblue/dhxtabbar_cell_progress.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtoolbar_skyblue/dhxtoolbar_arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtoolbar_skyblue/dhxtoolbar_arrow_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/ext/dhxupload.xap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxwins_skyblue/dhxwins_buttons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxwins_skyblue/dhxwins_icon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxwins_skyblue/dhxwins_progress.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxdataview_skyblue/dnd_selector.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxdataview_skyblue/dnd_selector_cells.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxdataview_skyblue/dnd_selector_lines.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/dom4j-1.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/dyn_.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/dyn_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/dyn_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/images/event.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/images/eventList.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/folder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/folderClosed.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/folderOpen.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/h1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/h2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/h3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/h4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/hibernate-core-4.3.10.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/iconCheckAll.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/iconCheckDis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/iconCheckGray.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/iconUncheckAll.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/iconUncheckDis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/imageloaderror.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/indent_dec.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/indent_inc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/italic.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/item_chk0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/item_chk0_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/item_chk1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/item_chk1_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/jackson-annotations-2.2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/jackson-core-2.2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/jackson-databind-2.2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/jandex-1.1.0.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/javassist-3.18.1-GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/jstl-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/images/knopka_back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/leaf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/leaf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/line1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/line1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/line1_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/line2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/line2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/line2_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/line3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/line3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/line3_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/line4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/line4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/line4_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/list_bullet.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/list_number.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/lock.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/images/mail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxdataview_skyblue/marker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/minus1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/minus1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/minus2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/minus2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/minus2_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/minus3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/minus3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/minus3_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/minus4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/minus4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/minus4_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/minus5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/minus5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/minus5_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/mysql-connector-java-5.1.36.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/paging_page.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/paging_pages.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/paging_rows.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/plus1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/plus1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/plus2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/plus2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/plus2_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/plus3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/plus3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/plus3_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/plus4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/plus4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/plus4_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/tree/plus5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/plus5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/plus5_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/radio_chk0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/radio_chk0_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/radio_chk1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/radio_chk1_dis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/radio_off.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxtree_skyblue/radio_on.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/images/reload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/script_sub.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/script_super.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/servlet-api-2.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/sort_asc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxgrid_skyblue/sort_desc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/spring-aop-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/spring-beans-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/spring-context-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/spring-core-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/spring-expression-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/spring-jdbc-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/spring-orm-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/spring-tx-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/spring-web-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/spring-webmvc-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/strike.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/imgs/dhxeditor_skyblue/underline.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/ext/uploader.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/images/userList.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/images/users.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/lib/xml-apis-1.0.b2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/thirdparty/excanvas/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/thirdparty/excanvas/COPYING" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Event.bm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/Event.bm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/InactiveUsers.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/InactiveUsers.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/thirdparty/excanvas/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/User.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/classes/User.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/addEvent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/addPayment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/addUser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/deleteEvent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/deletePayment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/deleteUser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/dhtmlx.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/dhtmlx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/dhtmlx_deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/pages/event.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/xml/eventToolbar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/thirdparty/excanvas/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/hibernate.cfg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/js/mainpage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/xml/menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/js/moneyKeeper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/mvc-dispatcher-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/xml/newEventForm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/xml/newPaymentForm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/xml/newUserForm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/requestObj.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/resultTable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/pages/resultTable.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/root-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/dx/codebase/ext/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/pages/test.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/xml/toolbar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/updateEvents.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/updatePayments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/updateUserList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/pages/userList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/pages/userPayments.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/resources/xml/userToolbar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/vasilevsky/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="vasilevsky.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="Cvs2Configuration">
+    <option name="SHOW_OUTPUT" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - test@127.0.0.1" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="test" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="vasilevsky" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="SpringController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springapp/web/SpringController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="250" column="0" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1155#1156#0" expanded="false" />
+                <element signature="e#1184#1185#0" expanded="false" />
+                <element signature="e#10911#10912#0" expanded="false" />
+                <element signature="e#10941#10942#0" expanded="false" />
+                <element signature="e#14188#14189#0" expanded="false" />
+                <element signature="e#14224#14225#0" expanded="false" />
+                <element signature="e#14363#14364#0" expanded="false" />
+                <element signature="e#14412#14413#0" expanded="false" />
+                <element signature="e#14546#14547#0" expanded="false" />
+                <element signature="e#14593#14594#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLBuilderImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/springapp/service/XMLBuilderImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="106" column="15" selection-start-line="106" selection-start-column="15" selection-end-line="106" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moneyKeeper.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/moneyKeeper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43312103">
+              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+                <element signature="n#!!block;n#createMainLayout#0" expanded="false" />
+                <element signature="e#3809#3899#0" expanded="false" />
+                <element signature="n#!!block;n#createSecondLayout#0" expanded="false" />
+                <element signature="n#!!block;n#createSideBar#0" expanded="false" />
+                <element signature="e#4539#4708#0" expanded="false" />
+                <element signature="n#!!block;n#createToolBar#0" expanded="false" />
+                <element signature="n#!!block;n#onUserPaymentGridToolBarClick#0" expanded="false" />
+                <element signature="e#5650#5858#0" expanded="false" />
+                <element signature="e#5680#5749#0" expanded="false" />
+                <element signature="e#5755#5851#0" expanded="false" />
+                <element signature="e#5864#6728#0" expanded="false" />
+                <element signature="e#5898#6556#0" expanded="false" />
+                <element signature="e#5939#6452#0" expanded="false" />
+                <element signature="e#5972#6434#0" expanded="false" />
+                <element signature="e#6133#6416#0" expanded="false" />
+                <element signature="e#6171#6394#0" expanded="false" />
+                <element signature="e#6458#6546#0" expanded="false" />
+                <element signature="e#6562#6722#0" expanded="false" />
+                <element signature="e#6596#6712#0" expanded="false" />
+                <element signature="n#!!block;n#createAddPaymentForm#0" expanded="false" />
+                <element signature="e#7007#7157#0" expanded="false" />
+                <element signature="e#7076#7149#0" expanded="false" />
+                <element signature="e#7233#7310#0" expanded="false" />
+                <element signature="n#!!block;n#createAddForm#0" expanded="false" />
+                <element signature="n#!!block;n#onAddPaymentFormClick#0" expanded="false" />
+                <element signature="e#8090#8415#0" expanded="false" />
+                <element signature="e#8218#8407#0" expanded="false" />
+                <element signature="e#8421#8506#0" expanded="false" />
+                <element signature="e#8453#8500#0" expanded="false" />
+                <element signature="n#!!block;n#onAddUserFormClick#0" expanded="false" />
+                <element signature="e#8616#8916#0" expanded="false" />
+                <element signature="e#8732#8907#0" expanded="false" />
+                <element signature="e#8922#9005#0" expanded="false" />
+                <element signature="e#8954#8999#0" expanded="false" />
+                <element signature="n#!!block;n#onAddEventFormClick#0" expanded="false" />
+                <element signature="e#9117#9426#0" expanded="false" />
+                <element signature="e#9432#9515#0" expanded="false" />
+                <element signature="e#9464#9509#0" expanded="false" />
+                <element signature="e#10018#10615#0" expanded="false" />
+                <element signature="e#10146#10599#0" expanded="false" />
+                <element signature="e#10313#10581#0" expanded="false" />
+                <element signature="e#10351#10559#0" expanded="false" />
+                <element signature="e#10621#10715#0" expanded="false" />
+                <element signature="e#10754#10906#0" expanded="false" />
+                <element signature="n#!!block;n#onEventGridToolBarClick#0" expanded="false" />
+                <element signature="n#!!block;n#onDblClickEventUserGrid#0" expanded="false" />
+                <element signature="n#!!block;n#createUserGrid#0" expanded="false" />
+                <element signature="n#!!block;n#createEventGrid#0" expanded="false" />
+                <element signature="n#!!block;n#createUserPaymentsGrid#0" expanded="false" />
+                <element signature="e#15473#15516#0" expanded="false" />
+                <element signature="n#!!block;n#createActiveUsersGrid#0" expanded="false" />
+                <element signature="n#!!block;n#bindEventActiveUsersGrid#0" expanded="false" />
+                <element signature="n#!!block;n#createDataProcessor#0" expanded="false" />
+                <element signature="n#!!block;n#reloadUserPaymentGrid#0" expanded="false" />
+                <element signature="e#17317#17530#0" expanded="false" />
+                <element signature="e#17357#17522#0" expanded="false" />
+                <element signature="n#!!block;n#reloadEventGrid#0" expanded="false" />
+                <element signature="e#17650#17796#0" expanded="false" />
+                <element signature="e#17687#17782#0" expanded="false" />
+                <element signature="n#!!block;n#reloadUserGrid#0" expanded="false" />
+                <element signature="e#17914#18023#0" expanded="false" />
+                <element signature="e#17951#18009#0" expanded="false" />
+                <element signature="n#!!block;n#reloadActiveUserGrid#0" expanded="false" />
+                <element signature="e#18148#18255#0" expanded="false" />
+                <element signature="n#!!block;n#userGridOnEditCell#0" expanded="false" />
+                <element signature="e#18364#19075#0" expanded="false" />
+                <element signature="e#18523#18602#0" expanded="false" />
+                <element signature="e#18608#18652#0" expanded="false" />
+                <element signature="e#18676#19067#0" expanded="false" />
+                <element signature="e#18836#19057#0" expanded="false" />
+                <element signature="e#18866#18977#0" expanded="false" />
+                <element signature="e#18983#19043#0" expanded="false" />
+                <element signature="e#19096#19223#0" expanded="false" />
+                <element signature="n#!!block;n#eventGridOnEditCell#0" expanded="false" />
+                <element signature="e#19589#19668#0" expanded="false" />
+                <element signature="e#19674#19718#0" expanded="false" />
+                <element signature="e#19742#20128#0" expanded="false" />
+                <element signature="e#19897#20118#0" expanded="false" />
+                <element signature="e#19927#20037#0" expanded="false" />
+                <element signature="e#20043#20104#0" expanded="false" />
+                <element signature="n#!!block;n#setGridRowInBold#0" expanded="false" />
+                <element signature="n#!!block;n#prepareLayout#0" expanded="false" />
+                <element signature="n#!!block;n#onSideBarSelect#0" expanded="false" />
+                <element signature="e#20955#21490#0" expanded="false" />
+                <element signature="e#21016#21153#0" expanded="false" />
+                <element signature="e#21189#21332#0" expanded="false" />
+                <element signature="e#21368#21484#0" expanded="false" />
+                <element signature="n#!!block;n#translateActiveStatus#0" expanded="false" />
+                <element signature="e#21592#21941#0" expanded="false" />
+                <element signature="e#21761#21855#0" expanded="false" />
+                <element signature="n#!!block;n#formatDate#0" expanded="false" />
+                <element signature="n#!!block;n#formatDate2#0" expanded="false" />
+                <element signature="e#22328#22804#0" expanded="false" />
+                <element signature="e#22642#22678#0" expanded="false" />
+                <element signature="e#23082#23342#0" expanded="false" />
+                <element signature="e#23146#23336#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="XSLT Stylesheet" />
+        <option value="Html5" />
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/resultTable.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/xml/menu.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/updatePayments.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/updateUserList.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/xml/form.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/updateEvents.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/xml/userAlert.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/xml/newPaymentForm.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/xml/newUserForm.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/xml/userToolbar.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/xml/toolbar.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/dx/dhtmlx.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/xml/eventToolbar.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/xml/newEventForm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/pojo/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/InactiveUsers.tld" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/hibernate.cfg.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ff752cd4-90e4-4561-947d-509ab95ddeec/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/InactiveUsers.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/pojo/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/addEvent.js" />
+        <option value="dbtable:/e195b4ec/ff752cd4-90e4-4561-947d-509ab95ddeec/test..users" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/pojo/InactiveUsers.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Event.bm.xml" />
+        <option value="dbtable:/e195b4ec/ff752cd4-90e4-4561-947d-509ab95ddeec/test..inactiveuserevents" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/dao/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/dao/EventDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/service/EventService.java" />
+        <option value="dbtable:/e195b4ec/ff752cd4-90e4-4561-947d-509ab95ddeec/test..activeuserforevent" />
+        <option value="dbtable:/e195b4ec/ff752cd4-90e4-4561-947d-509ab95ddeec/test..payment" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/service/EventServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/dao/EventDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/service/ResultTableBuilderImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/xml/111.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="D:/file.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/test.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/intercepter/ResTabIntersepter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/service/ResultTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/service/XMLBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/service/XMLBuilderImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/root-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/service/ResultTableImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/intercepter/ResTabInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/springapp/web/SpringController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/moneyKeeper.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/mainpage.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="vasilevsky" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="vasilevsky" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2" />
+    <option name="width" value="1604" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cashKeeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cashKeeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vasilevsky" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cashKeeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vasilevsky" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cashKeeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vasilevsky" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cashKeeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vasilevsky" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cashKeeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vasilevsky" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cashKeeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vasilevsky" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cashKeeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vasilevsky" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cashKeeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vasilevsky" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cashKeeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vasilevsky" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cashKeeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vasilevsky" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intercepter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cashKeeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vasilevsky" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="recentsLimit" value="5" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.440966" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="ToolWindowDocumentation.ShowToolbar" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\oleg\IdeaProjects\vasilevsky\src\main\webapp\WEB-INF\resources\xml" />
+      <recent name="C:\Users\oleg\IdeaProjects\vasilevsky\src\main\webapp\WEB-INF\resources" />
+      <recent name="C:\Users\oleg\IdeaProjects\vasilevsky\src\main\resources" />
+      <recent name="C:\Users\oleg\IdeaProjects\vasilevsky\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oleg\IdeaProjects\vasilevsky\src\main\webapp\WEB-INF\resources\xml" />
+      <recent name="C:\Users\oleg\IdeaProjects\vasilevsky\src\main\webapp\WEB-INF\resources\images" />
+      <recent name="C:\Users\oleg\IdeaProjects\vasilevsky\src\main\webapp\WEB-INF\resources\dx\codebase" />
+      <recent name="C:\Users\oleg\IdeaProjects\vasilevsky\src\main\webapp\WEB-INF\resources\dx" />
+      <recent name="C:\Users\oleg\IdeaProjects\vasilevsky\src\main\webapp\WEB-INF\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.24">
+    <configuration default="false" name="deleteUser.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="deleteUser.js" working-dir="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources">
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="Tomcat 8.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.24" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="vasilevsky:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_vasilevsky_3" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53364" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="vasilevsky:war" />
+        </option>
+      </method>
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AppTests" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.0.24" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.deleteUser.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.deleteUser.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b8640e8-e5ea-452e-98c7-1e58949504d0" name="Default" comment="" />
+      <created>1437846228677</created>
+      <option name="number" value="Default" />
+      <updated>1437846228677</updated>
+      <workItem from="1437846231604" duration="17653000" />
+      <workItem from="1438847733891" duration="3767000" />
+      <workItem from="1439316666988" duration="1403000" />
+      <workItem from="1439667502258" duration="2597000" />
+      <workItem from="1439793599898" duration="28000" />
+      <workItem from="1439795122665" duration="55606000" />
+      <workItem from="1441959495722" duration="164146000" />
+      <workItem from="1448271909375" duration="1950000" />
+      <workItem from="1451385354031" duration="4961000" />
+      <workItem from="1453708119733" duration="22677000" />
+      <workItem from="1454323683745" duration="15720000" />
+      <workItem from="1454485600183" duration="1842000" />
+      <workItem from="1455099496248" duration="3583000" />
+      <workItem from="1455690514195" duration="1306000" />
+      <workItem from="1455743124488" duration="2404000" />
+      <workItem from="1457504563318" duration="4835000" />
+      <workItem from="1457949375516" duration="2789000" />
+      <workItem from="1458137015326" duration="660000" />
+      <workItem from="1458285299143" duration="52529000" />
+      <workItem from="1459771479994" duration="34072000" />
+      <workItem from="1459863293692" duration="48892000" />
+      <workItem from="1461232173165" duration="75575000" />
+      <workItem from="1461681563820" duration="113208000" />
+      <workItem from="1462301148523" duration="44184000" />
+      <workItem from="1463052598584" duration="7935000" />
+      <workItem from="1467101210075" duration="867000" />
+      <workItem from="1469090175861" duration="1319000" />
+      <workItem from="1469092237334" duration="3504000" />
+    </task>
+    <task id="LOCAL-00001" summary="21.07.16">
+      <created>1469095628985</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1469095628985</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="690012000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2" y="0" width="1604" height="876" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32795697" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32258064" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293011" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19818653" sideWeight="0.516129" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19818653" sideWeight="0.48387095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19818653" sideWeight="0.516129" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20660622" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19818653" sideWeight="0.516129" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1155914" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39919356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="780" height="676" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39919356" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37231183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5107527" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966322" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39919356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3510204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.248057" sideWeight="0.5080645" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25712436" sideWeight="0.4919355" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.248057" sideWeight="0.5080645" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.248057" sideWeight="0.5080645" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <ignored-roots>
+      <path value="$USER_HOME$" />
+    </ignored-roots>
+    <MESSAGE value="21.07.16" />
+    <option name="LAST_COMMIT_MESSAGE" value="21.07.16" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/dhtmlx/codebase/dhtmlx.js</url>
+          <line>8</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="35" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="vasilevsky" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="vasilevsky" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ff752cd4-90e4-4561-947d-509ab95ddeec/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.038548753">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1457859">
+          <caret line="920" column="12" selection-start-line="920" selection-start-column="12" selection-end-line="920" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/dx/codebase/dhtmlx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35436893">
+          <caret line="8" column="632241" selection-start-line="8" selection-start-column="632241" selection-end-line="8" selection-end-column="632241" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/addEvent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5808656">
+          <caret line="15" column="93" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/requestObj.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/pojo/InactiveUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38041002">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/e195b4ec/ff752cd4-90e4-4561-947d-509ab95ddeec/test..inactiveuserevents">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/InactiveUsers.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27107063">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Event.bm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27107063">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3029613">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/e195b4ec/ff752cd4-90e4-4561-947d-509ab95ddeec/test..users">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/service/EventService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54214126">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/dao/EventDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50341684">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/e195b4ec/ff752cd4-90e4-4561-947d-509ab95ddeec/test..payment">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3050847">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/pojo/UserPayments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8063781">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76765376">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/service/EventServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/dao/EventDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1209" column="42" selection-start-line="1209" selection-start-column="42" selection-end-line="1209" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67303103">
+          <caret line="96" column="40" selection-start-line="96" selection-start-column="15" selection-end-line="96" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/function/BiConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.1.RELEASE/spring-web-4.1.1.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35459185">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33174226">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/resultTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33174226">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/xml/menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/xml/eventToolbar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28400955">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39119172">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/javax/xml/transform/TransformerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.5831437">
+          <caret line="196" column="32" selection-start-line="196" selection-start-column="32" selection-end-line="196" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/javax/xml/transform/Transformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56492025">
+          <caret line="105" column="25" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/io/StringWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.501139">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/javax/xml/transform/stream/StreamResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8291572">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/service/XMLBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.309795">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.85876995">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/intercepter/ResTabInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/e195b4ec/ff752cd4-90e4-4561-947d-509ab95ddeec/test..activeuserforevent">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="51" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/service/ResultTableImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.309795">
+          <caret line="77" column="57" selection-start-line="77" selection-start-column="57" selection-end-line="77" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4259681">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/pojo/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50341684">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38724375">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/dao/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8200456">
+          <caret line="83" column="52" selection-start-line="83" selection-start-column="52" selection-end-line="83" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/root-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6092232">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5353075">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/service/ResultTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1424581">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/web/SpringController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="250" column="0" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1155#1156#0" expanded="false" />
+            <element signature="e#1184#1185#0" expanded="false" />
+            <element signature="e#10911#10912#0" expanded="false" />
+            <element signature="e#10941#10942#0" expanded="false" />
+            <element signature="e#14188#14189#0" expanded="false" />
+            <element signature="e#14224#14225#0" expanded="false" />
+            <element signature="e#14363#14364#0" expanded="false" />
+            <element signature="e#14412#14413#0" expanded="false" />
+            <element signature="e#14546#14547#0" expanded="false" />
+            <element signature="e#14593#14594#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springapp/service/XMLBuilderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="15" selection-start-line="106" selection-start-column="15" selection-end-line="106" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-vasilevsky">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-vasilevsky</OriginalElement>
+          <nodes>
+            <node x="" y="">lib-Maven: org.hibernate:hibernate-core:4.3.10.Final</node>
+            <node x="" y="">lib-Maven: com.fasterxml.jackson.core:jackson-core:2.2.2</node>
+            <node x="" y="">lib-Maven: javax.servlet:servlet-api:2.5</node>
+            <node x="" y="">lib-Maven: org.springframework:spring-aop:4.1.1.RELEASE</node>
+            <node x="" y="">mdl-vasilevsky</node>
+            <node x="" y="">lib-Maven: org.jboss:jandex:1.1.0.Final</node>
+            <node x="" y="">lib-Maven: xml-apis:xml-apis:1.0.b2</node>
+            <node x="" y="">lib-Maven: org.springframework:spring-beans:4.1.1.RELEASE</node>
+            <node x="" y="">lib-Maven: org.jboss.logging:jboss-logging:3.1.3.GA</node>
+            <node x="" y="">lib-Maven: org.javassist:javassist:3.18.1-GA</node>
+            <node x="" y="">lib-Maven: aopalliance:aopalliance:1.0</node>
+            <node x="" y="">lib-Maven: javax.servlet.jsp:jsp-api:2.1</node>
+            <node x="" y="">lib-Maven: com.fasterxml.jackson.core:jackson-annotations:2.2.2</node>
+            <node x="" y="">lib-Maven: mysql:mysql-connector-java:5.1.36</node>
+            <node x="" y="">lib-Tomcat 8.0.24</node>
+            <node x="" y="">lib-Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final</node>
+            <node x="" y="">lib-Maven: org.apache.commons:commons-pool2:2.3</node>
+            <node x="" y="">lib-Maven: org.springframework:spring-tx:4.1.1.RELEASE</node>
+            <node x="" y="">lib-Maven: com.fasterxml.jackson.core:jackson-databind:2.2.2</node>
+            <node x="" y="">lib-Maven: org.springframework:spring-core:4.1.1.RELEASE</node>
+            <node x="" y="">lib-Maven: org.apache.commons:commons-dbcp2:2.1</node>
+            <node x="" y="">lib-Maven: jstl:jstl:1.2</node>
+            <node x="" y="">lib-Maven: org.springframework:spring-web:4.1.1.RELEASE</node>
+            <node x="" y="">lib-Maven: org.springframework:spring-jdbc:4.1.1.RELEASE</node>
+            <node x="" y="">lib-Maven: antlr:antlr:2.7.7</node>
+            <node x="" y="">lib-Maven: org.springframework:spring-webmvc:4.1.1.RELEASE</node>
+            <node x="" y="">lib-Maven: org.springframework:spring-context:4.1.1.RELEASE</node>
+            <node x="" y="">lib-Maven: org.hibernate.common:hibernate-commons-annotations:4.0.5.Final</node>
+            <node x="" y="">lib-Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.0.0.Final</node>
+            <node x="" y="">lib-Maven: org.springframework:spring-orm:4.1.1.RELEASE</node>
+            <node x="" y="">lib-Maven: commons-logging:commons-logging:1.1.3</node>
+            <node x="" y="">lib-Maven: org.jboss.logging:jboss-logging-annotations:1.2.0.Beta1</node>
+            <node x="" y="">lib-Maven: dom4j:dom4j:1.6.1</node>
+            <node x="" y="">lib-Maven: org.springframework:spring-expression:4.1.1.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0050131478496902" x="606.0" y="153.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Libraries</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/stail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/mainpage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9747899">
+          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/js/moneyKeeper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43312103">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+            <element signature="n#!!block;n#createMainLayout#0" expanded="false" />
+            <element signature="e#3809#3899#0" expanded="false" />
+            <element signature="n#!!block;n#createSecondLayout#0" expanded="false" />
+            <element signature="n#!!block;n#createSideBar#0" expanded="false" />
+            <element signature="e#4539#4708#0" expanded="false" />
+            <element signature="n#!!block;n#createToolBar#0" expanded="false" />
+            <element signature="n#!!block;n#onUserPaymentGridToolBarClick#0" expanded="false" />
+            <element signature="e#5650#5858#0" expanded="false" />
+            <element signature="e#5680#5749#0" expanded="false" />
+            <element signature="e#5755#5851#0" expanded="false" />
+            <element signature="e#5864#6728#0" expanded="false" />
+            <element signature="e#5898#6556#0" expanded="false" />
+            <element signature="e#5939#6452#0" expanded="false" />
+            <element signature="e#5972#6434#0" expanded="false" />
+            <element signature="e#6133#6416#0" expanded="false" />
+            <element signature="e#6171#6394#0" expanded="false" />
+            <element signature="e#6458#6546#0" expanded="false" />
+            <element signature="e#6562#6722#0" expanded="false" />
+            <element signature="e#6596#6712#0" expanded="false" />
+            <element signature="n#!!block;n#createAddPaymentForm#0" expanded="false" />
+            <element signature="e#7007#7157#0" expanded="false" />
+            <element signature="e#7076#7149#0" expanded="false" />
+            <element signature="e#7233#7310#0" expanded="false" />
+            <element signature="n#!!block;n#createAddForm#0" expanded="false" />
+            <element signature="n#!!block;n#onAddPaymentFormClick#0" expanded="false" />
+            <element signature="e#8090#8415#0" expanded="false" />
+            <element signature="e#8218#8407#0" expanded="false" />
+            <element signature="e#8421#8506#0" expanded="false" />
+            <element signature="e#8453#8500#0" expanded="false" />
+            <element signature="n#!!block;n#onAddUserFormClick#0" expanded="false" />
+            <element signature="e#8616#8916#0" expanded="false" />
+            <element signature="e#8732#8907#0" expanded="false" />
+            <element signature="e#8922#9005#0" expanded="false" />
+            <element signature="e#8954#8999#0" expanded="false" />
+            <element signature="n#!!block;n#onAddEventFormClick#0" expanded="false" />
+            <element signature="e#9117#9426#0" expanded="false" />
+            <element signature="e#9432#9515#0" expanded="false" />
+            <element signature="e#9464#9509#0" expanded="false" />
+            <element signature="e#10018#10615#0" expanded="false" />
+            <element signature="e#10146#10599#0" expanded="false" />
+            <element signature="e#10313#10581#0" expanded="false" />
+            <element signature="e#10351#10559#0" expanded="false" />
+            <element signature="e#10621#10715#0" expanded="false" />
+            <element signature="e#10754#10906#0" expanded="false" />
+            <element signature="n#!!block;n#onEventGridToolBarClick#0" expanded="false" />
+            <element signature="n#!!block;n#onDblClickEventUserGrid#0" expanded="false" />
+            <element signature="n#!!block;n#createUserGrid#0" expanded="false" />
+            <element signature="n#!!block;n#createEventGrid#0" expanded="false" />
+            <element signature="n#!!block;n#createUserPaymentsGrid#0" expanded="false" />
+            <element signature="e#15473#15516#0" expanded="false" />
+            <element signature="n#!!block;n#createActiveUsersGrid#0" expanded="false" />
+            <element signature="n#!!block;n#bindEventActiveUsersGrid#0" expanded="false" />
+            <element signature="n#!!block;n#createDataProcessor#0" expanded="false" />
+            <element signature="n#!!block;n#reloadUserPaymentGrid#0" expanded="false" />
+            <element signature="e#17317#17530#0" expanded="false" />
+            <element signature="e#17357#17522#0" expanded="false" />
+            <element signature="n#!!block;n#reloadEventGrid#0" expanded="false" />
+            <element signature="e#17650#17796#0" expanded="false" />
+            <element signature="e#17687#17782#0" expanded="false" />
+            <element signature="n#!!block;n#reloadUserGrid#0" expanded="false" />
+            <element signature="e#17914#18023#0" expanded="false" />
+            <element signature="e#17951#18009#0" expanded="false" />
+            <element signature="n#!!block;n#reloadActiveUserGrid#0" expanded="false" />
+            <element signature="e#18148#18255#0" expanded="false" />
+            <element signature="n#!!block;n#userGridOnEditCell#0" expanded="false" />
+            <element signature="e#18364#19075#0" expanded="false" />
+            <element signature="e#18523#18602#0" expanded="false" />
+            <element signature="e#18608#18652#0" expanded="false" />
+            <element signature="e#18676#19067#0" expanded="false" />
+            <element signature="e#18836#19057#0" expanded="false" />
+            <element signature="e#18866#18977#0" expanded="false" />
+            <element signature="e#18983#19043#0" expanded="false" />
+            <element signature="e#19096#19223#0" expanded="false" />
+            <element signature="n#!!block;n#eventGridOnEditCell#0" expanded="false" />
+            <element signature="e#19589#19668#0" expanded="false" />
+            <element signature="e#19674#19718#0" expanded="false" />
+            <element signature="e#19742#20128#0" expanded="false" />
+            <element signature="e#19897#20118#0" expanded="false" />
+            <element signature="e#19927#20037#0" expanded="false" />
+            <element signature="e#20043#20104#0" expanded="false" />
+            <element signature="n#!!block;n#setGridRowInBold#0" expanded="false" />
+            <element signature="n#!!block;n#prepareLayout#0" expanded="false" />
+            <element signature="n#!!block;n#onSideBarSelect#0" expanded="false" />
+            <element signature="e#20955#21490#0" expanded="false" />
+            <element signature="e#21016#21153#0" expanded="false" />
+            <element signature="e#21189#21332#0" expanded="false" />
+            <element signature="e#21368#21484#0" expanded="false" />
+            <element signature="n#!!block;n#translateActiveStatus#0" expanded="false" />
+            <element signature="e#21592#21941#0" expanded="false" />
+            <element signature="e#21761#21855#0" expanded="false" />
+            <element signature="n#!!block;n#formatDate#0" expanded="false" />
+            <element signature="n#!!block;n#formatDate2#0" expanded="false" />
+            <element signature="e#22328#22804#0" expanded="false" />
+            <element signature="e#22642#22678#0" expanded="false" />
+            <element signature="e#23082#23342#0" expanded="false" />
+            <element signature="e#23146#23336#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="jpa-descriptors" />
+              <type id="artifact" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>vasilevsky:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.440966" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.440966" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.440966" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.440966" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>vasilevsky</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.440966" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.440966" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<toolbar>
+    <item id="addUser" type="button" text="Добавить пользователя" img="addUser.png"/>
+    <item id="sep01" type="separator"/>
+    <item id="delUser" type="button" text="Удалить пользователя" img="delUser.png"/>
+    <item id="sep01" type="separator"/>
+    <item id="reload" type="button" text="Обновить" img="reload.png"/>
+</toolbar>

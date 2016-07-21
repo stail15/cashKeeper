@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="springapp.pojo">
+    <class name="InactiveUsers" table="activeuserforevent">
+        <id name="id" type="int" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="userId" column="userId"/>
+        <property name="eventId" column="eventId"/>
+    </class>
+</hibernate-mapping>
