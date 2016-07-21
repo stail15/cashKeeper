@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<toolbar>
+    <item id="newPayment" type="button" text="Добавить платеж" img="addPayment.png"/>
+    <item id="sep01" type="separator"/>
+    <item id="delPayment" type="button" text="Удалить платеж" img="delPayment.png"/>
+    <item id="sep01" type="separator"/>
+    <item id="reload" type="button" text="Обновить" img="reload.png"/>
+</toolbar>

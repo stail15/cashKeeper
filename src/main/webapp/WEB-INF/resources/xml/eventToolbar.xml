@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<toolbar>
+    <item id="addEvent" type="button" text="Добавить событие" img="addEvent.png"/>
+    <item id="sep01" type="separator"/>
+    <item id="delEvent" type="button" text="Удалить событие" img="delEvent.png"/>
+    <item id="sep01" type="separator"/>
+    <item id="reload" type="button" text="Обновить" img="reload.png"/>
+</toolbar>
